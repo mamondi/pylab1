@@ -1,6 +1,5 @@
-number = int(input("Введіть число: "))
+num1 = float(input("Введіть перше число:"))
+num2 = float(input("Введіть друге число:"))
 
-if number % 2 ==0:
-    print(f"{number} - Even number")
-else:
-    print(f"{number} - Odd number")
+maximum = max(num1, num2)
+print(f"Більшим числом є {maximum}")
